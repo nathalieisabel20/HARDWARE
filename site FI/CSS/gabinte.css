@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'fonte';
+    src: url('Pixeboy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'socorro';
+    src: url('SGT-Jhon-O.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'gamer';
+    src: url('GameOnlineDemoRegular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(67, 63, 71);
+}
+
+h1 a {
+    font-family: 'fonte';
+    font-size: 4rem;
+    color: rgb(204, 224, 224);
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+
+header {
+    background-image: linear-gradient(to right, #211f24, #433f47, #211f24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+nav {
+
+    width: 100%;
+    background-color: rgb(68, 47, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-size: 1.2rem;
+    font-family: 'socorro';
+    padding: 15px 15px;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-weight: 200;
+}
+
+nav a:hover {
+
+
+    color: rgb(24, 20, 26);
+    transform: scale(1.1);
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right, #211f24, #433f47, #211f24);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+small {
+    font-size: 1rem;
+    color: rgb(152, 151, 151);
+}
+
+.sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+    
+
+}
+
+.sociais p {
+    color: rgb(152, 151, 151);
+    white-space: nowrap;
+}
+
+.sociais a {
+    transition: transform 0.3s ease;
+
+}
+
+.sociais a:hover {
+    transform: scale(1.1);
+}
+
+
+
+.sociais img {
+    width: 100%;
+
+}

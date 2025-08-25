@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'fonte';
+    src: url('CSS/Pixeboy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'socorro';
+    src: url('CSS/SGT-Jhon-O.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'gamer';
+    src: url('CSS/GameOnlineDemoRegular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'manga';
+    src: url('CSS/BoldPixels1.4.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(67, 63, 71);
+}
+
+h1 a {
+    font-family: 'fonte';
+    font-size: 4rem;
+    color: rgb(204, 224, 224);
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+
+header {
+    background-image: linear-gradient(to right, #211f24, #433f47, #211f24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+nav {
+
+    width: 100%;
+    background-color: rgb(68, 47, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-size: 1.2rem;
+    font-family: 'socorro';
+    padding: 15px 15px;
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-weight: 200;
+}
+
+nav a:hover {
+
+
+    color: rgb(24, 20, 26);
+    transform: scale(1.1);
+}
+
+
+.testando {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 50px;
+    margin-top: 30px;
+}
+
+.testando>div  {
+    flex: 1.1 200px;
+    margin: 20px;
+}
+
+div img {
+    width: 100%;
+}
+
+p {
+   
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: justify;
+    color: aliceblue;
+    margin: 5px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'manga';
+    color: rgb(20, 18, 20);
+    margin: 5px;
+    padding: 20px;
+
+}
+
+.coisa {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 50px;
+    margin-top: 0 auto;
+}
+
+.coisa> .item {
+    flex: 1.1 290px;
+    margin: 20px;
+    background-image: linear-gradient(to right, #442f4ee7, #2e2233cc) ;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .35s;
+    cursor: pointer;
+   
+
+}
+
+.coisa:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.coisa div a {
+    margin-top: 40px;
+    margin: 40px;
+    
+    padding: 20px 70px 20px 70px;
+    text-decoration: none;
+    color: rgb(22, 12, 14);
+    font-size: 1.7rem;
+    font-family: 'gamer';
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 1.9rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-family: 'socorro';
+
+}
+
+
+h4{
+    font-size: 3rem;
+    font-family: 'gamer';
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(187, 187, 187);
+    text-shadow: 3px 3px 5px black;
+}
+
+
+
+div.opacidade {
+    height: auto;
+    position: relative;
+    background-image: linear-gradient(transparent, black);
+    opacity: 0.6;
+    transition: all 0.5s ease-in-out;
+ 
+}
+
+
+
+
+
+footer {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right, #211f24, #433f47, #211f24);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+small {
+    font-size: 1rem;
+    color: rgb(152, 151, 151);
+}
+
+.sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: auto;/
+}
+
+.sociais p {
+    color: rgb(152, 151, 151);
+    white-space: nowrap;
+}
+
+.sociais a {
+    transition: transform 0.3s ease;
+
+}
+
+.sociais a:hover {
+    transform: scale(1.1);
+}
+
+
+
+footer .sociais img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+
+}
+
+/*Teclado (informática)
+
+O que é:
+
+Um teclado de computador é um dispositivo de entrada que possui uma série de botões ou teclas, utilizado para inserir dados no computador. É um tipo de periférico de entrada utilizado pelo usuário para a entrada manual no sistema de dados e comandos. Possui teclas representando letras, números, símbolos e outras funções, baseado no modelo de teclado das antigas máquinas de escrever.
+
+Como funciona:
+
+Um teclado normalmente tem caracteres gravados ou impressos sobre cada botão, correspondente a um único símbolo escrito. No entanto, para produzir alguns símbolos no computador, é necessário utilizar mais de uma tecla simultaneamente. Os teclados de computadores mais comuns são projetados para a escrita de textos e inserção de comandos de sistema. Juntamente ao rato (mouse), é uma das principais interfaces entre o computador e o utilizador.
+
+História:
+
+A origem dos teclados com disposição dos dias de hoje foram criados por Christopher Sholes, em 1868, por meio das máquinas de escrever e dos perfuradores de cartão.
+
+A primeira máquina de escrever foi inventada pelo inglês Henry Mill em 1714. Em 1808, o italiano Pelegrinno Turri introduziu o sistema de teclado, a fim de se comunicar com uma amiga que era cega. Carlos Thuber, em 1843, cria um modelo aperfeiçoado da máquina de escrever acoplado ao teclado. Em 1868, Christopher Sholes criou o teclado QWERTY, para ter mais agilidade e rapidez na hora de digitação.
+
+Teorias sustentam que o padre brasileiro Francisco João de Azevedo foi o primeiro inventor brasileiro desse tipo de mecanismo, que teria sido plagiado por Christopher Sholes.
+
+No começo do século XX, alguns dispositivos que imprimiam dados alfanuméricos eram utilizados. A tecnologia de cartões perfurados, criada em 1881, ajudou a criar e a guardar mensagens que podiam ser lidas de novo, posteriormente, com um leitor mecânico. O código Morse sonoro foi usado até meados de 1917 quando os circuitos principais, especialmente aqueles que usavam cabos como a API e a UPI, foram convertidos para usar impressoras mecânicas.
+
+Por volta de 1930, a máquina de teletipo se uniu com a máquina de escrever, resultando em uma nova forma de comunicação telegráfica. Inicialmente, essas máquinas imprimiam mensagens em uma fita de papel.
+
+A Segunda Guerra Mundial ajudou na criação de computadores para quebrar códigos de mensagens criptografadas de guerra. Em setembro de 1940, George Stibitiz, que trabalhava para a Bell Labs, demonstrou o Model 1 que utilizava uma entrada de teclado de teletipo. Essa demonstração foi única porque foi feita através de linhas telefônicas, algo que não seria repetido por mais de uma década.
+
+Os anos 50 viram o começo da comercialização do computador. Computadores como o Univac tinham um teclado que era usado para controlar o console, mas antes eles eram apenas para calcular números de maneira mais fácil.
+
+Mouse (informática)
+
+O que é:
+
+O mouse (ou rato) é um periférico de entrada que, junto ao teclado, auxilia no processo de entrada de dados em programas com interface gráfica. Ele tem como função movimentar o cursor (ou apontador) pela tela do computador e possui, normalmente, quatro tipos de operações: movimento, clique, duplo clique e arrastar e largar.
+
+Como funciona:
+
+O rato ou mouse original possuía dois discos que rolavam nos eixos X e Y e tocavam diretamente na superfície. O modelo mais conhecido de rato é, provavelmente, o rato baseado em uma esfera, que roda livremente, mas que, na prática, gira dois discos que ficam em seu interior. O movimento dos discos pode ser detectado tanto mecanicamente quanto por meio óptico.
+
+Os modelos ópticos foram introduzidos pela Microsoft em 1999 e, não tendo peças móveis, eles tiram fotografias que são comparadas e que permitem deduzir o movimento que foi feito. O rato óptico é uma invenção do início da década de 1990, quando a Sun fornecia máquinas com um rato óptico que exigia um mousepad especial, com uma padronagem matricial. O rato óptico atual, porém, usa uma tecnologia muito mais avançada, que pode funcionar em qualquer superfície não reflexiva.
+
+O mouse ou rato, por padrão, possui, pelo menos, dois botões: o esquerdo é usado para selecionar e clicar (acionar) ícones e o direito realiza funções secundárias como, por exemplo, exibir as propriedades do objeto apontado. Há, ainda, na maioria dos ratos (ou mouses), um botão em sua parte central, que tem, como função principal, movimentar a barra de rolagem das janelas.
+
+História:
+
+Embora tenha sido inventado por Bill English, a sua patente pertence a Douglas Engelbart, sob o n.º 3.541.541 nos Estados Unidos, datando de 1970.
+
+Engelbart apresentou este periférico pela primeira vez em 9 de dezembro de 1968 denominando-o de "XY Position Indicator For A Display System". Constituía-se então em uma pequena caixa de madeira com apenas um botão. O invento de Engelbart ficou sem muita utilização devido à falta de necessidade de tal dispositivo; afinal, a maioria dos computadores utilizava apenas textos e cursores na tela.
+
+A partir da primeira metade da década de 1980, mais precisamente em 1983, a Apple Inc. passou a utilizar o mouse como dispositivo apontador em seus micros Apple Lisa. Desde lá para cá, o periférico tornou-se parte integrante dos atuais PCs. O Windows da Microsoft foi criado à volta dele e navegar na internet seria impossível sem um rato (mouse). Pode-se dizer que, a partir do lançamento do Windows 3.1, em abril de 1992, o lugar do mouse estava assegurado.
+
+Na época, Douglas Engelbart vendeu a patente do "X-Y Position Indicator for mouse" por 10 000 dólares estadunidenses.
+
+Nos últimos anos, centenas de milhões de computadores e, certamente, um número igual ou maior de mouses foram vendidos.
+
+Em 10 de abril de 1997, Engelbart recebeu, em Washington, o prêmio Lemelson-MIT de 500 mil dólares estadunidenses.
+
+HD (Hard Disk)
+
+O que é:
+
+Uma Unidade de Disco Rígido (HDD), popularmente conhecida como HD (derivação de HDD do inglês hard disk drive), é um dispositivo de armazenamento de dados eletromecânico. Ele armazena e recupera dados digitais usando armazenamento magnético em um ou mais pratos rígidos que giram rapidamente, revestidos com material magnético. Os dados são acessados de forma aleatória, o que significa que blocos individuais de dados podem ser armazenados e recuperados em qualquer ordem. Os HDDs são um tipo de armazenamento não volátil, retendo os dados armazenados mesmo quando desligados. Os HDDs modernos geralmente têm a forma de uma pequena caixa retangular.
+
+Como funciona:
+
+O HD funciona através de pratos magnéticos que giram em alta velocidade. Um braço atuador com cabeças magnéticas lê e grava dados nas superfícies desses pratos. O movimento dos dados é feito de forma aleatória, permitindo que qualquer bloco de dados seja acessado diretamente. Os dois formatos mais comuns para HDDs modernos são 3,5 polegadas (para computadores desktop) e 2,5 polegadas (principalmente para laptops). Os HDDs são conectados ao sistema por cabos de interface padrão, como PATA (Parallel ATA), SATA (Serial ATA), USB ou SAS (Serial Attached SCSI).
+
+História:
+
+A primeira unidade de disco rígido de produção da IBM, o IBM 350, foi lançada em 1957 como um componente do sistema IBM 305 RAMAC. Era aproximadamente do tamanho de duas geladeiras de tamanho médio e armazenava cinco milhões de caracteres de seis bits (3,75 megabytes) em uma pilha de 52 discos (100 superfícies usadas). O IBM 350 tinha um único braço com duas cabeças de leitura/gravação que se moviam horizontalmente entre um par de pratos adjacentes e verticalmente de um par de pratos para um segundo conjunto.
+
+Em 1961, a IBM anunciou, e em 1962 lançou, a unidade de armazenamento de disco IBM 1301, que substituiu o IBM 350 e unidades semelhantes. O 1301 consistia em um (para o modelo 1) ou dois (para o modelo 2) módulos, cada um contendo 25 pratos, cada prato com cerca de 1/8 polegadas (3,2 mm) de espessura e 24 polegadas (610 mm) de diâmetro. Enquanto as unidades de disco IBM anteriores usavam apenas duas cabeças de leitura/gravação por braço, o 1301 usava uma matriz de 48 cabeças, cada matriz movendo-se horizontalmente como uma única unidade, uma cabeça por superfície usada.
+
+Reynold B. Johnson é considerado o "pai" da unidade de disco rígido. Ele foi um inventor americano e pioneiro da computação, funcionário da IBM, e além dessa invenção, ele também fez outras invenções que incluem equipamentos de teste automático de pontuação e a fita de videocassete.
+
+SSD (Solid State Drive)
+
+O que é:
+
+Uma Unidade de Estado Sólido (SSD) é um dispositivo de armazenamento de estado sólido que utiliza conjuntos de circuitos integrados para armazenar dados de forma persistente, geralmente usando memória flash. Diferente dos HDDs, os SSDs não possuem partes móveis, o que os torna mais resistentes a choques físicos, silenciosos e com maior velocidade de acesso aos dados.
+
+Como funciona:
+
+SSDs armazenam dados em células semicondutoras, que podem conter entre 1 e 4 bits de dados. As células de bit único (SLC) são as mais confiáveis, duráveis, rápidas e caras, enquanto as células de múltiplos bits (MLC, TLC, QLC) são mais baratas por gigabyte, mas com menor durabilidade. A memória 3D XPoint, por exemplo, armazena dados alterando a resistência elétrica das células. Os SSDs podem usar interfaces e fatores de forma tradicionais de HDD (como SATA e SAS) ou interfaces mais recentes (como mSATA, M.2, U.2, NVMe sobre PCIe) que exploram as vantagens da memória flash para um desempenho ainda maior.
+
+História:
+
+Os primeiros dispositivos semelhantes a SSDs usavam tecnologia semicondutora. O SSD nasceu na década de 1950, quando os engenheiros trabalhavam para aprimorar os sistemas de armazenamento. Em 1983, a Sharp PC-5000 já utilizava memória bolha SSD de 128KB. Nos anos 90, os SSDs baseados em memória flash começaram a surgir. A partir da primeira metade da década de 1980, mais precisamente em 1983, a Apple Inc. passou a utilizar o mouse como dispositivo apontador em seus micros Apple Lisa. Desde lá para cá, o periférico tornou-se parte integrante dos atuais PCs. O Windows da Microsoft foi criado à volta dele e navegar na internet seria impossível sem um rato (mouse). Pode-se dizer que, a partir do lançamento do Windows 3.1, em abril de 1992, o lugar do mouse estava assegurado.
+
+Os SSDs têm um número limitado de gravações em sua vida útil e podem ficar mais lentos à medida que se aproximam de sua capacidade total de armazenamento. SSDs baseados em NAND Flash podem vazar carga lentamente ao longo do tempo se ficarem sem energia por longos períodos, o que os torna menos adequados para armazenamento de arquivos a longo prazo sem energia.
+
+*/

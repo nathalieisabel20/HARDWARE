@@ -31,13 +31,13 @@ h1 a {
     font-size: 4rem;
     color: rgb(204, 224, 224);
     text-decoration: none;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 5px 5px 4px black;
 }
 
 
 
 header {
-    background-image: linear-gradient(to right, #211f24, #433f47, #211f24);
+    background-image: linear-gradient(to right, #4c3553, #442735, #573963);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,7 @@ header {
 nav {
 
     width: 100%;
-    background-color: rgb(68, 47, 78);
+      background-image: linear-gradient(to right,  #351b3a, #331f2e, #392141 );
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -106,7 +106,7 @@ h3{
     margin: 20px;
     flex-direction: column;
     padding: 20px;
-     background-image:linear-gradient(to right, #211f24, #433f47);
+      background-image:linear-gradient(to right, #322035, #31243f);
      border-radius: 20px;
 
 }
@@ -149,7 +149,7 @@ ol{
     max-width: 1400px;
     margin: 0 auto; 
     padding: 20px;
-     background-image:linear-gradient(to right, #211f24, #433f47);
+       background-image:linear-gradient(to right, #472737, #3f1e3b);
      gap: 2px;
 }
 
@@ -167,7 +167,7 @@ ol{
 
 .lista-marcas > div {
     flex: 1 1 290px; 
-    background-color: rgba(89, 82, 95, 0.6);
+  background-color: rgba(24, 17, 20, 0.733);
     border-radius: 6px;
     text-align: center;
 }
@@ -175,7 +175,7 @@ ol{
 footer {
     display: flex;
     width: 100%;
-    background-image: linear-gradient(to right, #211f24, #433f47, #211f24);
+     background-image: linear-gradient(to right, #2b1b30, #442735, #2b1d31);
     align-items: center;
     justify-content: space-between;
     padding: 20px;
